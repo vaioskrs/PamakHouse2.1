@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 
 /**
- * Created by Dimitris on 20-Dec-16.
+ * Created by vaios on 20-Dec-16.
  */
 public class Group {
 
@@ -15,7 +15,7 @@ public class Group {
     }
 
     /**
-     * Ελέγχει αν είναι μέλος του γκρουπ ή όχι
+     * Γ…Γ«ΓΓ£Γ·Γ¥Γ© Γ΅Γ­ Γ¥ΓΓ­Γ΅Γ© Γ¬ΓΓ«Γ―Γ² Γ΄Γ―Γµ Γ£ΓªΓ±Γ―ΓµΓ° Γ ΓΌΓ·Γ©
      * @param aUser
      * @return
      */
@@ -30,7 +30,7 @@ public class Group {
     }
 
     /**
-     * Προσθέτει χρήστη στο γκρούπ
+     * ΓΓ±Γ―Γ³Γ¨ΓΓ΄Γ¥Γ© Γ·Γ±ΓΓ³Γ΄Γ§ Γ³Γ΄Γ― Γ£ΓªΓ±Γ―Γ½Γ°
      * @param aUser
      */
     public void addToGroup(User aUser) {
@@ -43,7 +43,7 @@ public class Group {
     }
 
     /**
-     * Εκτυπώνει τους χρήστες που βρίσκονται στο γκρούπ
+     * Γ…ΓªΓ΄ΓµΓ°ΓΎΓ­Γ¥Γ© Γ΄Γ―ΓµΓ² Γ·Γ±ΓΓ³Γ΄Γ¥Γ² Γ°Γ―Γµ ΓΆΓ±ΓΓ³ΓªΓ―Γ­Γ΄Γ΅Γ© Γ³Γ΄Γ― Γ£ΓªΓ±Γ―Γ½Γ°
      */
     public void printInfo() {
 
