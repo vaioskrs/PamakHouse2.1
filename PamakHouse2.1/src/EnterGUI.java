@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 /**
- * Created by Dimitris on 20-Dec-16.
+ * Created by vaios on 20-Dec-16.
  */
 public class EnterGUI extends JFrame
 {
@@ -16,11 +16,11 @@ public class EnterGUI extends JFrame
     public EnterGUI(ArrayList<User> allUsers)
     {
         panel   = new JPanel();
-        button  = new JButton("Είσοδος");
+        button  = new JButton("Γ…ΓΓ³Γ―Γ¤Γ―Γ²");
         text    = new JTextField(10);
 
-        button.setToolTipText("Θα μεταβείς στην σελίδα χρήστη αν τον πατήσεις");
-        text.setToolTipText("Πρέπει να βάλεις το όνομα χρήστη");
+        button.setToolTipText("ΓΓ΅ Γ¬Γ¥Γ΄Γ΅ΓΆΓ¥ΓΓ² Γ³Γ΄Γ§Γ­ Γ³Γ¥Γ«ΓΓ¤Γ΅ Γ·Γ±ΓΓ³Γ΄Γ§ Γ΅Γ­ Γ΄Γ―Γ­ Γ°Γ΅Γ΄ΓΓ³Γ¥Γ©Γ²");
+        text.setToolTipText("ΓΓ±ΓΓ°Γ¥Γ© Γ­Γ΅ ΓΆΓΓ«Γ¥Γ©Γ² Γ΄Γ― ΓΌΓ­Γ―Γ¬Γ΅ Γ·Γ±ΓΓ³Γ΄Γ§");
 
         panel.add(text);
         panel.add(button);
@@ -53,7 +53,7 @@ public class EnterGUI extends JFrame
         });
 
         this.setContentPane(panel);
-        this.setTitle("Είσοδος Χρήστη");
+        this.setTitle("Γ…ΓΓ³Γ―Γ¤Γ―Γ² Γ—Γ±ΓΓ³Γ΄Γ§");
         this.setVisible(true);
         this.setSize(270, 100);
         this.setResizable(false);
