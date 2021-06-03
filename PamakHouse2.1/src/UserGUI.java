@@ -7,7 +7,7 @@ import java.util.Calendar;
 import java.util.Collections;
 
 /**
- * Created by Dimitris on 20-Dec-16.
+ * Created by vaios on 20-Dec-16.
  */
 public class UserGUI extends JFrame {
 
@@ -29,12 +29,12 @@ public class UserGUI extends JFrame {
         textFieldMail       = new JTextField(user.getEmail());
         textFieldSuggFriend = new JTextField("Gianna", 10);
 
-        buttonBack = new JButton("Πίσω στο παράθυρο εισόδου");
-        buttonPost = new JButton("Πόστ");
-        sortButton = new JButton("Ταξινόμηση");
+        buttonBack = new JButton("ΓΓΓ³ΓΉ Γ³Γ΄Γ― Γ°Γ΅Γ±ΓΓ¨ΓµΓ±Γ― Γ¥Γ©Γ³ΓΌΓ¤Γ―Γµ");
+        buttonPost = new JButton("ΓΓΌΓ³Γ΄");
+        sortButton = new JButton("Γ”Γ΅Γ®Γ©Γ­ΓΌΓ¬Γ§Γ³Γ§");
 
-        labelRecentPost      = new JLabel("Πρόσφατα ποστ φίλων");
-        labelSuggestedFriend = new JLabel("Προτεινόμενοι φίλοι");
+        labelRecentPost      = new JLabel("ΓΓ±ΓΌΓ³Γ¶Γ΅Γ΄Γ΅ Γ°Γ―Γ³Γ΄ Γ¶ΓΓ«ΓΉΓ­");
+        labelSuggestedFriend = new JLabel("ΓΓ±Γ―Γ΄Γ¥Γ©Γ­ΓΌΓ¬Γ¥Γ­Γ―Γ© Γ¶ΓΓ«Γ―Γ©");
 
         textAreaPost         = new JTextArea(13, 30);/*
         textAreaRecentPosts  = new JTextArea(13, 30);*/
@@ -93,7 +93,7 @@ public class UserGUI extends JFrame {
         });
 
         this.setContentPane(panel);
-        this.setTitle("Σελίδα χρήστη");
+        this.setTitle("Γ“Γ¥Γ«ΓΓ¤Γ΅ Γ·Γ±ΓΓ³Γ΄Γ§");
         this.setVisible(true);
         textAreaPost.requestFocus();
         this.setResizable(true);
