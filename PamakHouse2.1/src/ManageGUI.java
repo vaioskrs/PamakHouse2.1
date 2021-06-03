@@ -4,7 +4,7 @@ import java.awt.event.ActionListener;
 import java.util.ArrayList;
 
 /**
- * Created by Dimitris on 20-Dec-16.
+ * Created by vaios on 20-Dec-16.
  */
 public class ManageGUI extends JFrame {
 
@@ -38,11 +38,11 @@ public class ManageGUI extends JFrame {
 
         list1.setSelectedIndex(0);
         list1.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        list1.setToolTipText("Επέλεξε από αυτή την λίστα τον 1ο φίλο");
+        list1.setToolTipText("Γ…Γ°ΓΓ«Γ¥Γ®Γ¥ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄Γ Γ΄Γ§Γ­ Γ«ΓΓ³Γ΄Γ΅ Γ΄Γ―Γ­ 1Γ― Γ¶ΓΓ«Γ―");
 
         list2.setSelectedIndex(1);
         list2.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
-        list2.setToolTipText("Επέλεξε από αυτή την λίστα τον 2ο φίλο");
+        list2.setToolTipText("Γ…Γ°ΓΓ«Γ¥Γ®Γ¥ Γ΅Γ°ΓΌ Γ΅ΓµΓ΄Γ Γ΄Γ§Γ­ Γ«ΓΓ³Γ΄Γ΅ Γ΄Γ―Γ­ 2Γ― Γ¶ΓΓ«Γ―");
 
         panel.add(addFriendButton);
         panel.add(mutualFriendButton);
